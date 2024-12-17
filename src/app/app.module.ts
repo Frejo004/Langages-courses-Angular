@@ -11,6 +11,11 @@ import { FormAddTaskComponent } from './components/tasks/form-add-task/form-add-
 import { AfficheDetailLangagesComponent } from './components/tests/affiche-detail-langages/affiche-detail-langages.component';
 import { AfficheListLangagesComponent } from './components/tests/affiche-list-langages/affiche-list-langages.component';
 import { TestComponent } from './components/tests/test/test.component';
+import { LoginFormComponent } from './components/auth/login-form/login-form.component';
+import { RegisterFormComponent } from './components/auth/register-form/register-form.component';
+import { HeaderComponent } from './components/layout/header/header.component';
+import { MainContentComponent } from './components/layout/main-content/main-content.component';
+import { NavComponent } from './components/layout/nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +27,12 @@ import { TestComponent } from './components/tests/test/test.component';
     FormAddTaskComponent,
     AfficheDetailLangagesComponent,
     AfficheListLangagesComponent,
-    TestComponent
+    TestComponent,
+    LoginFormComponent,
+    RegisterFormComponent,
+    HeaderComponent,
+    MainContentComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
