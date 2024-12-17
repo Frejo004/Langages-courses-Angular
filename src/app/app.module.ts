@@ -8,6 +8,9 @@ import { TaskGroupComponent } from './components/tasks/task-group/task-group.com
 import { TaskGroupListComponent } from './components/tasks/task-group-list/task-group-list.component';
 import { SearchTaskComponent } from './components/tasks/search-task/search-task.component';
 import { FormAddTaskComponent } from './components/tasks/form-add-task/form-add-task.component';
+import { AfficheDetailLangagesComponent } from './components/tests/affiche-detail-langages/affiche-detail-langages.component';
+import { AfficheListLangagesComponent } from './components/tests/affiche-list-langages/affiche-list-langages.component';
+import { TestComponent } from './components/tests/test/test.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { FormAddTaskComponent } from './components/tasks/form-add-task/form-add-
     TaskGroupComponent,
     TaskGroupListComponent,
     SearchTaskComponent,
-    FormAddTaskComponent
+    FormAddTaskComponent,
+    AfficheDetailLangagesComponent,
+    AfficheListLangagesComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
